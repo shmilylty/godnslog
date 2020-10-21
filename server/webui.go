@@ -842,7 +842,7 @@ func (self *WebServer) getSecuritySetting(c *gin.Context) {
 	self.resp(c, 200, &CR{
 		Message: "OK",
 		Result: AppSecurity{
-			HttpAddr: fmt.Sprintf("http://%v/log/%v/", self.IP, user.ShortId),
+			HttpAddr: fmt.Sprintf("https://%v/log/%v/", self.Domain, user.ShortId),
 			DnsAddr:  user.ShortId + "." + self.Domain,
 			Token:    user.Token,
 		},
