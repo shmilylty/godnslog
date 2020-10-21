@@ -5,25 +5,17 @@
         <div class="header">
           <a href="/">
             <img src="~@/assets/logo.png" class="logo" alt="logo">
-            <span class="title">GO DNSLOG</span>
+            <span class="title">Hello World!</span>
           </a>
         </div>
         <div class="desc">
-          An exquisite dns&http log server for verify SSRF/XXE/RFI/RCE vulnerability
+          test
         </div>
       </div>
 
       <router-view />
 
       <div class="footer">
-        <div class="links">
-          <a href="https://github.com/chennqqi/godnslog" target="_blank">Wechat</a>
-          <a href="https://github.com/chennqqi/godnslog" target="_blank">Github</a>
-          <a href="https://github.com/chennqqi" target="_blank">@chennqqi</a>
-        </div>
-        <div class="copyright">
-          <a href="https://www.shellpub.com">Copyright &copy; 2020 shellpub.com</a>
-        </div>
       </div>
     </div>
   </div>
